@@ -1,0 +1,9 @@
+[all:vars]
+ansible_connection=network_cli
+ansible_network_os=eos
+ansible_user=testuser
+ansible_ssh_pass=arista123
+host_key_checking=False
+
+[cloudos]
+TO_REPLACE
