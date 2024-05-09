@@ -10,6 +10,6 @@ output "host-id" {
   value = aws_instance.CloudEOSHost.id
 }
 
-output "router-id" {
-  value = aws_instance.CloudEOSRouter.id
+output "cloudeos-id" {
+  value = aws_instance.CloudEOS1.id
 }
