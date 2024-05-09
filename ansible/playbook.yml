@@ -15,7 +15,8 @@
       arista.eos.eos_banner:
         banner: login
         text: |
-          this is my login banner2
-          that contains a multiline
-          string
+          HELLO
+          FROM SPACELIFT
+          TO
+          ARISTA
         state: present
